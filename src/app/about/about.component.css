@@ -1,0 +1,200 @@
+p{
+    color:yellowgreen
+  }
+  .img-block img{
+    width: 700px;
+    height: 800px;
+    object-fit: cover;
+  }
+  .form-control{
+    box-shadow: 0 5px 10px 0 rgba(109, 140, 161, 0.18);
+  }
+  .switch {
+  position: relative;
+  display: inline-block;
+  width: 50px;
+  height: 30px;
+  
+  }
+  
+  .switch input { 
+  opacity: 0;
+  width: 0;
+  height: 0;
+  }
+  .slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgb(243, 240, 240);
+  border-radius: 50%;
+  -webkit-transition: .4s;
+  transition: .4s;
+  }
+  .slider:before {
+  position: absolute;
+  content: "";
+  height: 20px;
+  width: 20px;
+  left: 0px;
+  bottom: 4px;
+  background-color: white;
+  border-radius: 30%;
+  -webkit-transition: .4s;
+  transition: .4s;
+  }
+  input:checked + .slider {
+  background-color: #2196F3;
+  border-radius: 30%;
+  }
+  input:checked + .slider:before {
+  -webkit-transform: translateX(26px);
+  -ms-transform: translateX(26px);
+  transform: translateX(26px);
+  }
+  .term{
+    color: #2196F3;
+    text-decoration: none;
+  }
+  .accept{
+    font-weight: 100;
+    letter-spacing: 0.8px;
+    font-size: 14px;
+    position: relative;
+    left: 91px;
+    bottom: 25px;
+    z-index: 999;
+  }
+  .cre-button{
+    background-color: #2196F3;
+    color: #fff;
+    font-size: 14px;
+    height: 35px;
+    width: 150px;
+    padding: 4px;
+  }
+  .cre-button i{
+    padding-right: 15px;
+  }
+  .bor{
+    height: 28px;
+    width: 80%;
+    border-bottom: 2px solid #bcb1b1;
+  }
+  .accept1{
+    font-weight: 300;
+    letter-spacing: 0.8px;
+    font-size: 14px;    
+  }
+  .help h6{
+    display: inline-grid;
+    grid-template-rows: 30px;
+    grid-template-columns: 30px;
+    padding: 8px;
+    font-size: 10px;
+    /* margin-top: 55px; */
+  }
+  .cloud{
+    font-size: 10px;
+    font-weight: 600;
+    margin-left: 70px;
+  }
+  .container{
+    margin-left: 100px;
+   padding-top: 30px;
+  }
+  .regi{
+    font-size: 20px;
+    font-weight: 600;
+  }
+  .input{
+    font-size: 14px;
+  }
+  .fn{
+    font-size: 13px;
+  }
+  .img-block1 img{
+    height: 65px;
+    width: 180px;
+    position: relative;
+    bottom: 55px;
+    left: 75px;
+  }
+  .tex-color{
+    color: red;
+  }
+  .log-in{
+  color: #2196F3;
+  background-color: #fff;
+  border: none;
+  }
+  #card {
+    position: relative;
+    width: 320px;
+    display: block;
+    margin: 40px auto;
+    text-align: center;
+    font-family: 'Source Sans Pro', sans-serif;
+  }
+  #upper-side {
+    padding: 2em;
+    background-color: #8BC34A;
+    display: block;
+    color: #fff;
+    border-top-right-radius: 8px;
+    border-top-left-radius: 8px;
+  }
+  #checkmark {
+    font-weight: lighter;
+    fill: #fff;
+    margin: -3.5em auto auto 20px;
+  }
+  #status {
+    font-weight: lighter;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 1em;
+    margin-top: -.2em;
+    margin-bottom: 0;
+  }
+  #lower-side {
+    padding: 2em 2em 5em 2em;
+    background: #fff;
+    display: block;
+    border-bottom-right-radius: 8px;
+    border-bottom-left-radius: 8px;
+  }
+  #message {
+    margin-top: -.5em;
+    color: #757575;
+    letter-spacing: 1px;
+  }
+  #contBtn {
+    position: relative;
+    top: 1.5em;
+    text-decoration: none;
+    background: #8bc34a;
+    color: #fff;
+    margin: auto;
+    padding: .8em 3em;
+    -webkit-box-shadow: 0px 15px 30px rgba(50, 50, 50, 0.21);
+    -moz-box-shadow: 0px 15px 30px rgba(50, 50, 50, 0.21);
+    box-shadow: 0px 15px 30px rgba(50, 50, 50, 0.21);
+    border-radius: 25px;
+    -webkit-transition: all .4s ease;
+      -moz-transition: all .4s ease;
+      -o-transition: all .4s ease;
+      transition: all .4s ease;
+  }
+  #contBtn:hover {
+    -webkit-box-shadow: 0px 15px 30px rgba(50, 50, 50, 0.41);
+    -moz-box-shadow: 0px 15px 30px rgba(50, 50, 50, 0.41);
+    box-shadow: 0px 15px 30px rgba(50, 50, 50, 0.41);
+    -webkit-transition: all .4s ease;
+      -moz-transition: all .4s ease;
+      -o-transition: all .4s ease;
+      transition: all .4s ease;
+  }

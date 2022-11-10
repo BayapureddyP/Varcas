@@ -1,0 +1,61 @@
+<!-- <p>notes works!</p> -->
+<div class="container">
+    
+    <div class="main">
+        <div class="logo">
+            <mat-icon>edit-square</mat-icon>
+        </div>
+        <div>
+            <!-- <h1><a href="../../assets/html.pdf">Html</a></h1> -->
+            <h1><a routerLink="../../assets/html.pdf">Html</a></h1>
+        </div>
+    </div>
+    <div class="term">
+        <div class="logo">
+            <mat-icon>edit-square</mat-icon>
+        </div>
+        <div>
+            <h1><a href="../../assets/css.pdf" (click)="onClick">Css</a></h1>
+        </div>
+    </div>
+    <div class="main">
+        <div class="logo">
+            <mat-icon>edit-square</mat-icon>
+        </div>
+        <div>
+            <h1><a href="../../assets/javascript.pdf">JavaScript</a></h1>
+        </div>
+    </div>
+    <div class="main">
+        <div class="logo">
+            <mat-icon>edit-square</mat-icon>
+        </div>
+        <div>
+            <h1><a href="https://www.youtube.com">Angular</a></h1>
+        </div>
+    </div>
+    <!-- <div class="row">
+        <div class="search-hero">
+            <input type="text" name="search" [(ngModel)]="searchText" placeholder="Search here">
+        </div>
+        <table class="table table-stripped">
+            <thead>
+                <tr>
+                    <th>Id</th>
+                    <th>Here Name</th>
+                    <th>Country Name</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr *ngFor="let hero of heroes | filter:searchText">
+                    <td>{{hero.id}}</td>
+                    <td>{{hero.name}}</td>
+                    <td>{{hero.country}}</td>
+                </tr>
+            </tbody>
+        </table>
+    </div> -->
+
+    <button (click)="add()">Add</button>
+
+</div>
